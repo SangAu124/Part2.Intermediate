@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		EF5E76512775548C00A6C4EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5E76502775548C00A6C4EE /* AppDelegate.swift */; };
 		EF5E76532775548C00A6C4EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5E76522775548C00A6C4EE /* SceneDelegate.swift */; };
-		EF5E76552775548C00A6C4EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5E76542775548C00A6C4EE /* ViewController.swift */; };
 		EF5E76582775548C00A6C4EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5E76562775548C00A6C4EE /* Main.storyboard */; };
 		EF5E765A2775548D00A6C4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5E76592775548D00A6C4EE /* Assets.xcassets */; };
 		EF5E765D2775548D00A6C4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5E765B2775548D00A6C4EE /* LaunchScreen.storyboard */; };
+		EF5E7665277554D500A6C4EE /* AlertListViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5E7664277554D500A6C4EE /* AlertListViewContoller.swift */; };
+		EFFAB1C5277557820064B953 /* AlertListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFAB1C3277557820064B953 /* AlertListCell.swift */; };
+		EFFAB1C6277557820064B953 /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFFAB1C4277557820064B953 /* AlertListCell.xib */; };
+		EFFAB1C82775594A0064B953 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFAB1C72775594A0064B953 /* Alert.swift */; };
+		EFFAB1CA27755D670064B953 /* AddAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFAB1C927755D670064B953 /* AddAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF5E764D2775548C00A6C4EE /* DrinkWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5E76502775548C00A6C4EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF5E76522775548C00A6C4EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EF5E76542775548C00A6C4EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF5E76572775548C00A6C4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF5E76592775548D00A6C4EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF5E765C2775548D00A6C4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF5E765E2775548D00A6C4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5E7664277554D500A6C4EE /* AlertListViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListViewContoller.swift; sourceTree = "<group>"; };
+		EFFAB1C3277557820064B953 /* AlertListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListCell.swift; sourceTree = "<group>"; };
+		EFFAB1C4277557820064B953 /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
+		EFFAB1C72775594A0064B953 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		EFFAB1C927755D670064B953 /* AddAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +64,17 @@
 		EF5E764F2775548C00A6C4EE /* DrinkWater */ = {
 			isa = PBXGroup;
 			children = (
+				EF5E7664277554D500A6C4EE /* AlertListViewContoller.swift */,
+				EFFAB1C3277557820064B953 /* AlertListCell.swift */,
+				EFFAB1C72775594A0064B953 /* Alert.swift */,
 				EF5E76502775548C00A6C4EE /* AppDelegate.swift */,
 				EF5E76522775548C00A6C4EE /* SceneDelegate.swift */,
-				EF5E76542775548C00A6C4EE /* ViewController.swift */,
 				EF5E76562775548C00A6C4EE /* Main.storyboard */,
+				EFFAB1C4277557820064B953 /* AlertListCell.xib */,
 				EF5E76592775548D00A6C4EE /* Assets.xcassets */,
 				EF5E765B2775548D00A6C4EE /* LaunchScreen.storyboard */,
 				EF5E765E2775548D00A6C4EE /* Info.plist */,
+				EFFAB1C927755D670064B953 /* AddAlertViewController.swift */,
 			);
 			path = DrinkWater;
 			sourceTree = "<group>";
@@ -127,6 +139,7 @@
 			files = (
 				EF5E765D2775548D00A6C4EE /* LaunchScreen.storyboard in Resources */,
 				EF5E765A2775548D00A6C4EE /* Assets.xcassets in Resources */,
+				EFFAB1C6277557820064B953 /* AlertListCell.xib in Resources */,
 				EF5E76582775548C00A6C4EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF5E76552775548C00A6C4EE /* ViewController.swift in Sources */,
 				EF5E76512775548C00A6C4EE /* AppDelegate.swift in Sources */,
+				EF5E7665277554D500A6C4EE /* AlertListViewContoller.swift in Sources */,
+				EFFAB1C5277557820064B953 /* AlertListCell.swift in Sources */,
+				EFFAB1C82775594A0064B953 /* Alert.swift in Sources */,
 				EF5E76532775548C00A6C4EE /* SceneDelegate.swift in Sources */,
+				EFFAB1CA27755D670064B953 /* AddAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
