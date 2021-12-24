@@ -62,7 +62,7 @@
         <!--Add Alert View Controller-->
         <scene sceneID="pab-M7-I15">
             <objects>
-                <viewController id="bFr-Ja-opB" customClass="AddAlertViewController" customModule="DrinkWater" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddAlertViewController" id="bFr-Ja-opB" customClass="AddAlertViewController" customModule="DrinkWater" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eaV-G0-CHV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,8 +71,16 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                 <items>
                                     <navigationItem title="알람 추가" id="cVJ-Du-zfm">
-                                        <barButtonItem key="leftBarButtonItem" title="취소" id="oXX-na-zVx"/>
-                                        <barButtonItem key="rightBarButtonItem" title="저장" id="5ay-OC-vQq"/>
+                                        <barButtonItem key="leftBarButtonItem" title="취소" id="oXX-na-zVx">
+                                            <connections>
+                                                <action selector="dismissButtonTapped:" destination="bFr-Ja-opB" id="3aA-bu-9uq"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="저장" id="5ay-OC-vQq">
+                                            <connections>
+                                                <action selector="saveButtonTapped:" destination="bFr-Ja-opB" id="ccW-ZM-ASn"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -83,7 +91,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="PgE-ZU-n2b">
-                                <rect key="frame" x="201" y="154" width="193" height="50"/>
+                                <rect key="frame" x="201" y="153.5" width="193" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="193" id="RSF-u3-L0E"/>
                                     <constraint firstAttribute="height" constant="50" id="Ul7-Ko-GoR"/>
@@ -103,6 +111,9 @@
                             <constraint firstItem="8Sd-HN-LdZ" firstAttribute="top" secondItem="RWi-Jy-rwZ" secondAttribute="bottom" constant="80" id="tuc-Rk-RRt"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="datePicker" destination="PgE-ZU-n2b" id="KqO-o6-lQv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v7x-Ig-Yfv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
