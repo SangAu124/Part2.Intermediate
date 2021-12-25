@@ -17,6 +17,7 @@
 		EFFAB1C6277557820064B953 /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFFAB1C4277557820064B953 /* AlertListCell.xib */; };
 		EFFAB1C82775594A0064B953 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFAB1C72775594A0064B953 /* Alert.swift */; };
 		EFFAB1CA27755D670064B953 /* AddAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFAB1C927755D670064B953 /* AddAlertViewController.swift */; };
+		EFFAB1CC27775E280064B953 /* UNNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFAB1CB27775E280064B953 /* UNNotificationCenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		EFFAB1C4277557820064B953 /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
 		EFFAB1C72775594A0064B953 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		EFFAB1C927755D670064B953 /* AddAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertViewController.swift; sourceTree = "<group>"; };
+		EFFAB1CB27775E280064B953 /* UNNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNNotificationCenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,17 +66,18 @@
 		EF5E764F2775548C00A6C4EE /* DrinkWater */ = {
 			isa = PBXGroup;
 			children = (
-				EF5E7664277554D500A6C4EE /* AlertListViewContoller.swift */,
-				EFFAB1C3277557820064B953 /* AlertListCell.swift */,
+				EFFAB1C927755D670064B953 /* AddAlertViewController.swift */,
 				EFFAB1C72775594A0064B953 /* Alert.swift */,
+				EFFAB1C3277557820064B953 /* AlertListCell.swift */,
+				EF5E7664277554D500A6C4EE /* AlertListViewContoller.swift */,
 				EF5E76502775548C00A6C4EE /* AppDelegate.swift */,
 				EF5E76522775548C00A6C4EE /* SceneDelegate.swift */,
+				EFFAB1CB27775E280064B953 /* UNNotificationCenter.swift */,
 				EF5E76562775548C00A6C4EE /* Main.storyboard */,
 				EFFAB1C4277557820064B953 /* AlertListCell.xib */,
 				EF5E76592775548D00A6C4EE /* Assets.xcassets */,
 				EF5E765B2775548D00A6C4EE /* LaunchScreen.storyboard */,
 				EF5E765E2775548D00A6C4EE /* Info.plist */,
-				EFFAB1C927755D670064B953 /* AddAlertViewController.swift */,
 			);
 			path = DrinkWater;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				EFFAB1C5277557820064B953 /* AlertListCell.swift in Sources */,
 				EFFAB1C82775594A0064B953 /* Alert.swift in Sources */,
 				EF5E76532775548C00A6C4EE /* SceneDelegate.swift in Sources */,
+				EFFAB1CC27775E280064B953 /* UNNotificationCenter.swift in Sources */,
 				EFFAB1CA27755D670064B953 /* AddAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
