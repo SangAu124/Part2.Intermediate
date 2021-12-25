@@ -13,6 +13,7 @@
 		EF5E765A2775548D00A6C4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5E76592775548D00A6C4EE /* Assets.xcassets */; };
 		EF5E765D2775548D00A6C4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5E765B2775548D00A6C4EE /* LaunchScreen.storyboard */; };
 		EF5E7665277554D500A6C4EE /* AlertListViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5E7664277554D500A6C4EE /* AlertListViewContoller.swift */; };
+		EFA34F0D27776876004645EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFA34F0C27776876004645EB /* GoogleService-Info.plist */; };
 		EFFAB1C5277557820064B953 /* AlertListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFAB1C3277557820064B953 /* AlertListCell.swift */; };
 		EFFAB1C6277557820064B953 /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFFAB1C4277557820064B953 /* AlertListCell.xib */; };
 		EFFAB1C82775594A0064B953 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFAB1C72775594A0064B953 /* Alert.swift */; };
@@ -29,6 +30,7 @@
 		EF5E765C2775548D00A6C4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF5E765E2775548D00A6C4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF5E7664277554D500A6C4EE /* AlertListViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListViewContoller.swift; sourceTree = "<group>"; };
+		EFA34F0C27776876004645EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EFFAB1C3277557820064B953 /* AlertListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListCell.swift; sourceTree = "<group>"; };
 		EFFAB1C4277557820064B953 /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
 		EFFAB1C72775594A0064B953 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				EF5E76592775548D00A6C4EE /* Assets.xcassets */,
 				EF5E765B2775548D00A6C4EE /* LaunchScreen.storyboard */,
 				EF5E765E2775548D00A6C4EE /* Info.plist */,
+				EFA34F0C27776876004645EB /* GoogleService-Info.plist */,
 			);
 			path = DrinkWater;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				EF5E765D2775548D00A6C4EE /* LaunchScreen.storyboard in Resources */,
 				EF5E765A2775548D00A6C4EE /* Assets.xcassets in Resources */,
+				EFA34F0D27776876004645EB /* GoogleService-Info.plist in Resources */,
 				EFFAB1C6277557820064B953 /* AlertListCell.xib in Resources */,
 				EF5E76582775548C00A6C4EE /* Main.storyboard in Resources */,
 			);
