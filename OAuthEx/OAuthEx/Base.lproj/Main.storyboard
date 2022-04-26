@@ -192,7 +192,7 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="nextButtonTapped:" destination="B6E-no-GeA" eventType="touchUpInside" id="gPu-9S-sCU"/>
+                                    <action selector="nextButtonTapped:" destination="B6E-no-GeA" eventType="touchUpInside" id="ySl-Eg-sOr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -211,7 +211,7 @@
                     <connections>
                         <outlet property="emailTextField" destination="0fB-Yr-kZu" id="Nn2-0a-GEM"/>
                         <outlet property="errorMessageLabel" destination="aW2-3b-ezN" id="xQj-7l-qLz"/>
-                        <outlet property="nextButton" destination="gw6-2I-WZl" id="9n6-sb-Wqb"/>
+                        <outlet property="nextButton" destination="gw6-2I-WZl" id="yq8-nd-Ct6"/>
                         <outlet property="passwordTextField" destination="IC2-mp-vq1" id="ypz-JW-IFh"/>
                     </connections>
                 </viewController>
@@ -222,7 +222,7 @@
         <!--Main View Controller-->
         <scene sceneID="bnA-xg-dbL">
             <objects>
-                <viewController id="fEi-JT-Y0S" customClass="MainViewController" customModule="OAuthEx" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fEi-JT-Y0S" customClass="MainViewController" customModule="OAuthEx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aNe-v2-0RM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -241,7 +241,7 @@
                                     <color key="baseForegroundColor" systemColor="systemGray6Color"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="logoutButtontapped:" destination="fEi-JT-Y0S" eventType="touchUpInside" id="zbP-G2-ENg"/>
+                                    <action selector="logoutButtontapped:" destination="fEi-JT-Y0S" eventType="touchUpInside" id="nwM-Vp-yKA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -255,7 +255,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="logoutButton" destination="uvT-RK-4C2" id="eBn-sU-uke"/>
                         <outlet property="welcomeLabel" destination="fum-fY-B7q" id="SPV-Yf-SHf"/>
                     </connections>
                 </viewController>

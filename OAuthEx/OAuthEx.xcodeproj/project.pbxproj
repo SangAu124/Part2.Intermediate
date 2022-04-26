@@ -54,7 +54,6 @@
 				CA289DE1289FB837052D4CCA /* Pods-OAuthEx.debug.xcconfig */,
 				554AF0B714C7DD90A3A63F64 /* Pods-OAuthEx.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

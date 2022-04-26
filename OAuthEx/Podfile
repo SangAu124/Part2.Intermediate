@@ -8,5 +8,6 @@ target 'OAuthEx' do
   # Pods for OAuthEx
 
   pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
 
 end
